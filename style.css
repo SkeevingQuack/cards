@@ -1,0 +1,20 @@
+.page {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    page-break-after: always;
+    padding: 0;
+
+    width: 8.5in;
+    height: 11.0in;
+    
+    background-color: white;
+}
+
+.card {
+    width: 2.5in;
+    height: 3.5in;
+    background-color: red;
+}
