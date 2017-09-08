@@ -1,3 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 80%);
+}
+
+@media screen {
+    .preview {
+        background-color: hsl(0, 0%, 100%);
+        box-shadow: 0 0 8px hsl(0, 0%, 0%, 50%);
+    }
+}
+
+page[size="Letter"] {
+    width:  8.5in;
+    height: 11.0in;
+}
+
 .page {
     display: flex;
     align-content: center;
@@ -9,12 +27,13 @@
 
     width: 8.5in;
     height: 11.0in;
-    
-    background-color: white;
 }
 
 .card {
     width: 2.5in;
     height: 3.5in;
-    background-color: red;
+    
+    box-sizing: border-box;
+    border: 2mm solid black;
+    border-radius: 1mm;
 }
